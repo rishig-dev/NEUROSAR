@@ -59,32 +59,10 @@ The project integrates advanced architectures, hybrid loss functions, and strong
 - False Alarm Rate (FAR)
 - Missed Alarm Rate (MAR)
 
----
-
-## 🗂️ Project Structure
-NeuroSAR/
-│── data/
-│ ├── train/
-│ ├── val/
-│ ├── test/
-│
-│── models/
-│── utils/
-│── experiments/
-│
-│── NeuroSAR_Advanced_Colab.ipynb
-│── README.md
-│── requirements.txt
 
 ---
 
-## ⚙️ Installation
 
-```bash
-git clone https://github.com/your-username/NeuroSAR.git
-cd NeuroSAR
-pip install -r requirements.txt
----
 ## 📦 Dataset
 Segmentation Format
 
@@ -101,8 +79,11 @@ data/
  │    ├── before/
  │    ├── after/
  │    ├── change_masks/
+ 
 ---
+
 ## 🏋️ Training
+
 model = NeuroSAR_UNet(...)
 train_loader, val_loader, test_loader = get_loaders(...)
 Adjust:
@@ -111,18 +92,23 @@ Learning rate
 Epochs
 EMA decay
 Augmentation parameters
+
 ---
+
 ## 📊 Results
 High mIoU and F1-score
 Robust to SAR noise and distortions
 Strong generalization via augmentation and EMA
+
 ---
+
 ##🛰️ Applications
 Military surveillance systems
 Disaster monitoring
 Urban change detection
 Environmental monitoring
 Autonomous UAV navigation
+
 ---
 ##👨‍💻 Author
 
